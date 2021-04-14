@@ -21,9 +21,29 @@ Please enjoy this project!
 
 ## Usability
 
-### Creating/Pulling the Dockerfile
+### Pulling/Creating the Dockerfile
+
+#### Pulling from DockerHub
+
+```
+docker pull kss7yy/sarnaik_pokedex
+```
+
+#### Manual Build and Creation
+
+```
+docker build -t <image tag> .
+```
 
 ### Running the Dockerfile
+
+```
+docker run -e KEY="<Discord channel key>" kss7yy/sarnaik_pokedex "<Pokémon name>"
+```
+
+The *discord channel key* parameter must be replaced with the sensitive Discord Webhook key, and the preceding *-e* flag exports it as an environment variable passed into the shell for the Python3 script to utilize. The *Pokémon name* parameter must be replaced with the Pokémon that you intend to retrieve information about. Please make sure to wrap both parameters with double quotes.
+
+The following link contains a list of acceptable Pokémon names: https://www.pokemon.com/us/pokedex/
 
 ## Files and General Documentation
 
