@@ -8,11 +8,12 @@ Professor: Neal Magee, Ph.D.
 Project Name: The Pokedex
 Assignment: DS3002 Data Project #1
 
-Github Repository: 
+Github Repository: https://github.com/kss7yy/-Sarnaik_Kunaal_DS3002_DataProject1
 Docker Container: https://hub.docker.com/repository/docker/kss7yy/sarnaik_pokedex
 API Source: https://pokeapi.co/
 '''
 
+# Import statements for relevant Python libraries/modules
 import json
 import requests
 import sys
