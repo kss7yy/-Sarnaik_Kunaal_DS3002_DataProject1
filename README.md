@@ -25,11 +25,15 @@ Please enjoy this project!
 
 #### Pulling from DockerHub
 
+One can pull this container directly from Docker Hub using the following command:
+
 ```
 docker pull kss7yy/sarnaik_pokedex
 ```
 
 #### Manual Build and Creation
+
+If one decides to build this container manually and locally, one can clone this repository on their local machine, cd to the local repository directory, and run the following command:
 
 ```
 docker build -t <image tag> .
