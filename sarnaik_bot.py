@@ -59,9 +59,6 @@ for ability in abilities:
     abilities_string = abilities_string + " " + ability['ability']['name'] + ","
 abilities_string = info_formatter(abilities_string, len(abilities))
 
-signature_ability = abilities[0]['ability']['name']
-
-
 pic_url = data['sprites']['front_default']
 
 content = name + " is a Pokémon possessing a height of " + str(height) + " decimeters and weighing " + str(weight) + " hectograms." + new_line
