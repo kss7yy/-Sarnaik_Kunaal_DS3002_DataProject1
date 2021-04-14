@@ -1,11 +1,11 @@
 # Sarnaik_Kunaal_DS3002_DataProject1
 
-*Author*: Kunaal Sarnaik (kss7yy@virginia.edu)
-*Course*: DS 3002 - Data Science Systems (Spring 2021)
-*Date*: April 14th, 2021
-*Professor*: Neal Magee, Ph.D.
-*Project Name*: The Pokedex (Discord Integration)
-*Assignment*: DS3002 Data Project #1
+*Author*: Kunaal Sarnaik (kss7yy@virginia.edu)<br/>
+*Course*: DS 3002 - Data Science Systems (Spring 2021)<br/>
+*Date*: April 14th, 2021<br/>
+*Professor*: Neal Magee, Ph.D.<br/>
+*Project Name*: The Pokedex (Discord Integration)<br/>
+*Assignment*: DS3002 Data Project #1<br/>
 
 Welcome to my DS3002: Data Science Systems Data Project #1 repository!
 
@@ -13,7 +13,7 @@ This repository contains the necessary text files to write a Dockerized Python3 
 
 The container takes a single parameter when run, performing error handling with an informative "help" screen if the wrong number of command line inputs are received. If the parameter is existent, the container attempts to perform a request against the remote API using that parameter, posting the results on the specified Discord server channel using a sensitive key. The sensitive key must be passed into the container when it is run (usability details are provided later in this document). Finally, if the parameter's information retrieval was unsuccessful or the sensitive key entered by the user was incorrect, the application provides another informative help screen.
 
-Please enjoy the project!
+Please enjoy this project!
 
 - Github Repository: https://github.com/kss7yy/-Sarnaik_Kunaal_DS3002_DataProject1
 - Docker Container: https://hub.docker.com/repository/docker/kss7yy/sarnaik_pokedex
